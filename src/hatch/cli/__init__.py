@@ -12,6 +12,7 @@ from hatch.cli.env import env
 from hatch.cli.new import new
 from hatch.cli.project import project
 from hatch.cli.publish import publish
+from hatch.cli.python import python
 from hatch.cli.run import run
 from hatch.cli.shell import shell
 from hatch.cli.status import status
@@ -194,6 +195,7 @@ hatch.add_command(env)
 hatch.add_command(new)
 hatch.add_command(project)
 hatch.add_command(publish)
+hatch.add_command(python)
 hatch.add_command(run)
 hatch.add_command(shell)
 hatch.add_command(status)
